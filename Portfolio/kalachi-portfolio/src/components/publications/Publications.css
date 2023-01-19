@@ -1,0 +1,65 @@
+.publications__container{
+     justify-content: center;
+}
+
+.publications__content{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.publications__data{
+    display: flex;
+    column-gap: 0.9rem;
+}
+
+.publications .bx-badge-check{
+    font-size:  1rem;
+    color: var(--title-color);
+    position: relative;
+    top: 1rem;
+}
+
+.publications__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+.publications__level {
+    font-size: 14px;
+    position: relative;
+    bottom: .7rem;
+    font-style: italic;
+}
+
+
+
+/*==================== BREAKPOINT ====================*/
+@media screen and (max-width: 992px) {
+
+  /*For large devices*/
+
+}
+
+  
+
+@media screen and (max-width: 576px) {
+    .publications__container{
+        grid-template-columns: 1fr;
+    }
+    .publications__name{
+        font-size: var(--small-font-size);
+    }
+    .publications__level{
+        font-size: .85rem;
+        
+    }
+    .publications__content{
+    
+        padding: 1rem 1.5rem;
+    
+    }
+    
+}
+

@@ -1,0 +1,65 @@
+.talks__container{
+    justify-content: center;
+}
+
+.talks__content{
+   background-color: var(--container-color);
+   border: 1px solid rgba(0,0,0,0.1);
+   padding: 2rem 4rem;
+   border-radius: 1.25rem;
+}
+
+.talks__data{
+   display: flex;
+   column-gap: 0.9rem;
+}
+
+.talks .bx-share-alt{
+   font-size:  1rem;
+   color: var(--title-color);
+   position: relative;
+   top: 1rem;
+}
+
+.talks__name {
+   font-size: var(--normal-font-size);
+   font-weight: var(--font-medium);
+   line-height: 18px;
+}
+.talks__level {
+   font-size: 14px;
+   position: relative;
+   bottom: .7rem;
+   font-style: italic;
+}
+
+
+
+/*==================== BREAKPOINT ====================*/
+@media screen and (max-width: 992px) {
+
+ /*For large devices*/
+
+}
+
+ 
+
+@media screen and (max-width: 576px) {
+   .talks__container{
+       grid-template-columns: 1fr;
+   }
+   .talks__name{
+       font-size: var(--small-font-size);
+   }
+   .talks__level{
+       font-size: .85rem;
+       
+   }
+   .talks__content{
+   
+       padding: 1rem 1.5rem;
+   
+   }
+   
+}
+
